@@ -1,0 +1,73 @@
+body
+{
+	background-color: hsl(0 0% 0%);
+
+}
+h1{
+	background-color: hsl(0 0% 20%);
+	margin: 20px 100px;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+}
+
+#password_container{
+	background-color: hsl(0 0% 100%);
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	height: 70px;
+	border-radius: 60px; 
+}
+#password{
+	position: relative;
+	top: 18px;
+	font-family: arial;
+	font-size: 2em;
+}
+#btn{
+	display: block;
+	margin:20px auto;
+	padding: 10px;
+	background-color:hsl(57 100% 59%);
+	border-radius: 20px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	width: 180px;
+	height: 50px;
+}
+#btn:hover{
+	box-shadow: 0px 0px 20px hsl(107 100% 59%);
+}
+#btn:active{
+	background-color:hsl(57 100% 80%);
+	color: hsl(0 0% 30%);
+}
+
+.ops{
+	display: inline-block;
+	position: relative;
+	top: 16px;
+}
+
+label{
+	color: black;
+	position: relative;
+	top: 16px;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+#btns{
+	background-color: hsl(185 100% 54%);
+	margin: 10px auto;
+	max-width: 500px;
+	height: 50px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+
